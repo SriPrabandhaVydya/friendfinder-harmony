@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "SriPrabandhaVydya/my-node-app"
         IMAGE_TAG = "latest"
         REGISTRY = "docker.io" // Use Docker Hub, AWS ECR, or any registry
-        DOCKER_USER = "Prabha20"
+        DOCKER_USER = "prabha20"
         DOCKER_PASS = "Ranjith@1311"
     }
 
