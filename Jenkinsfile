@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "docker.io/sriprabandhavydya/my-node-app"
+        IMAGE_NAME = "docker.io/prabha20/my-node-app"
         IMAGE_TAG = "latest"
         REGISTRY = "docker.io" // Use Docker Hub, AWS ECR, or any registry
         DOCKER_USER = "prabha20"
