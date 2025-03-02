@@ -43,7 +43,7 @@ pipeline {
         stage('Deploy with Docker') {
             steps {
                 script {
-                    sh 'docker run -d -p 8080:80 ${IMAGE_NAME}:${IMAGE_TAG}'
+                    sh 'docker run -d -p 8081:80 ${IMAGE_NAME}:${IMAGE_TAG}'
                 }
             }
         }
